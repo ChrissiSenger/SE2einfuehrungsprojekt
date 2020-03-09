@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SE2einfuehrungsprojekt</string>
+    <string name="edit_matrNr">Eingabe</string>
+    <string name="button_send">Absenden</string>
+    <string name="matrNr">Gib deine Matrikelnummer ein</string>
+    <string name="antwort_server">Antwort vom Server</string>
+</resources>
