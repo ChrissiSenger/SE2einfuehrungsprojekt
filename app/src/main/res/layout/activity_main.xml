@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="160dp"
-        android:onClick="changeMatrNr"
+        android:onClick="goAhead"
         android:text="@string/button_calc"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -46,11 +46,12 @@
         android:layout_marginEnd="15dp"
         android:layout_marginRight="15dp"
         android:layout_marginBottom="180dp"
-        android:onClick="sendMatrNr"
+        android:onClick="goAhead"
         android:text="@string/button_send"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
