@@ -4,4 +4,6 @@
     <string name="button_send">Absenden</string>
     <string name="matrNr">Gib deine Matrikelnummer ein</string>
     <string name="antwort_server">Antwort vom Server</string>
+    <string name="button_calc">Berechnen</string>
+    <string name="hello">Hallo!</string>
 </resources>

@@ -20,21 +20,20 @@ tools:context=".SendToServerActivity">
     app:layout_constraintTop_toBottomOf="@+id/button"
     app:layout_constraintVertical_bias="1.0" />
 
-<EditText
-    android:id="@+id/editText"
-    android:layout_width="328dp"
-    android:layout_height="53dp"
-    android:layout_marginTop="80dp"
-    android:autofillHints=""
-    android:ems="10"
-    android:hint="@string/matrNr"
-    android:inputType="number"
-    android:shadowColor="#3F51B5"
-    android:text="@string/matrNr"
-    android:textSize="24sp"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/textView" />
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="328dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="80dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/matrNr"
+        android:inputType="number"
+        android:shadowColor="#3F51B5"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 <Button
     android:id="@+id/button"
