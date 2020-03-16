@@ -3,7 +3,6 @@ package com.example.se2einfuehrungsprojekt;
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.Socket;
 import java.util.ArrayList;
@@ -25,9 +24,11 @@ public class ServerThread implements Runnable {
                 String in = inFromClient.readLine();
                 String answer = sortWithoutPrimes(in);
                 outToClient.writeBytes(answer);
+
                 inFromClient.close();
                 outToClient.close();
                 client.close();
+
         } catch (IOException ioe) {
             ioe.printStackTrace();
         }
@@ -46,7 +47,7 @@ public class ServerThread implements Runnable {
                 numbers.toString()
                         .replaceAll(",", "")
                         .replaceAll("]", "")
-                        .replace("[", "");
+                        .replaceAll("\\[", "");
         return retValue;
     }
 

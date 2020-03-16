@@ -2,11 +2,9 @@ package com.example.se2einfuehrungsprojekt;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -45,7 +43,6 @@ public class SendToServerActivity extends AppCompatActivity {
         message = "change";
         SendMessage sendMessage = new SendMessage();
         sendMessage.execute(message);
-        System.out.println(message);
     }
 
     private class SendMessage extends AsyncTask<String, Void, String> {
